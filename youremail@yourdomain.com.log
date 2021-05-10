@@ -1,0 +1,480 @@
+2021-05-04 04:52:28 info: ----------------------------------------------
+2021-05-04 04:52:28 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-04 04:52:28 info: ----------------------------------------------
+2021-05-04 04:52:28 info: Exercise has not yet been modified
+2021-05-04 04:52:33 error: *** Unit Test Error Report ***
+
+- giveCompliment should take a single parameter
+- giveCompliment should include a `compliments` array initialized with 10 strings
+  No such array found
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+
+2021-05-04 05:43:33 info: ----------------------------------------------
+2021-05-04 05:43:33 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-04 05:43:33 info: ----------------------------------------------
+2021-05-04 05:43:36 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are honest, HackYourFuture!
+  Received: You are honest HackYourFuture
+
+2021-05-04 05:43:37 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  21:7  warning  'compliments' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-04 05:43:38 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:29 - Unknown word (Qusi)
+
+2021-05-04 05:46:52 info: ----------------------------------------------
+2021-05-04 05:46:52 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-04 05:46:52 info: ----------------------------------------------
+2021-05-04 05:46:55 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are honest, HackYourFuture!
+  Received: You are honest, HackYourFuture
+
+2021-05-04 05:46:57 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:29 - Unknown word (Qusi)
+
+2021-05-04 05:48:01 info: ----------------------------------------------
+2021-05-04 05:48:01 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-04 05:48:01 info: ----------------------------------------------
+2021-05-04 05:48:04 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are honest, HackYourFuture!
+  Received: You are honest, HackYourFuture
+
+2021-05-04 05:48:06 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:29 - Unknown word (Qusi)
+
+2021-05-04 05:49:39 info: ----------------------------------------------
+2021-05-04 05:49:39 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-04 05:49:39 info: ----------------------------------------------
+2021-05-04 05:49:42 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are honest, HackYourFuture!
+  Received: You are honest, HackYourFuture
+
+2021-05-04 05:49:44 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:29 - Unknown word (Qusi)
+
+2021-05-04 05:59:59 info: ----------------------------------------
+2021-05-04 05:59:59 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-05-04 05:59:59 info: ----------------------------------------
+2021-05-04 06:00:03 error: *** Unit Test Error Report ***
+
+- calculateDogAge should give 7 dog years for 1 human year
+  Expected: Your doggie is 7 years old in dog years!
+  Received: our doggie is 1 years old in dog years!
+- calculateDogAge should give 14 dog years for 2 human years
+  Expected: Your doggie is 14 years old in dog years!
+  Received: our doggie is 2 years old in dog years!
+- calculateDogAge give 21 dog years for 3 human years
+  Expected: Your doggie is 21 years old in dog years!
+  Received: our doggie is 3 years old in dog years!
+
+2021-05-04 06:01:23 info: ----------------------------------------
+2021-05-04 06:01:23 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-05-04 06:01:23 info: ----------------------------------------
+2021-05-04 06:01:26 error: *** Unit Test Error Report ***
+
+- calculateDogAge should give 7 dog years for 1 human year
+  Expected: Your doggie is 7 years old in dog years!
+  Received: our doggie is 7 years old in dog years!
+- calculateDogAge should give 14 dog years for 2 human years
+  Expected: Your doggie is 14 years old in dog years!
+  Received: our doggie is 14 years old in dog years!
+- calculateDogAge give 21 dog years for 3 human years
+  Expected: Your doggie is 21 years old in dog years!
+  Received: our doggie is 21 years old in dog years!
+
+2021-05-04 06:01:27 error: *** ESLint Report ***
+
+ex2-dogYears.js
+  18:3  error  Unexpected var, use let or const instead  no-var
+
+✖ 1 problem (1 error, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
+
+2021-05-04 06:01:57 info: ----------------------------------------
+2021-05-04 06:01:57 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-05-04 06:01:57 info: ----------------------------------------
+2021-05-04 06:02:00 error: *** Unit Test Error Report ***
+
+- calculateDogAge should give 7 dog years for 1 human year
+  Expected: Your doggie is 7 years old in dog years!
+  Received: our doggie is 7 years old in dog years!
+- calculateDogAge should give 14 dog years for 2 human years
+  Expected: Your doggie is 14 years old in dog years!
+  Received: our doggie is 14 years old in dog years!
+- calculateDogAge give 21 dog years for 3 human years
+  Expected: Your doggie is 21 years old in dog years!
+  Received: our doggie is 21 years old in dog years!
+
+2021-05-04 06:04:13 info: ----------------------------------------
+2021-05-04 06:04:13 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-05-04 06:04:13 info: ----------------------------------------
+2021-05-04 06:04:17 info: All unit tests passed.
+2021-05-04 06:04:19 info: All steps were completed successfully
+2021-05-04 10:47:43 info: -------------------------------------------
+2021-05-04 10:47:43 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-04 10:47:43 info: -------------------------------------------
+2021-05-04 10:47:47 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  numKids, locations, partnerNames and jobTitles arrays must exist with five elements each
+
+2021-05-04 10:48:29 info: -------------------------------------------
+2021-05-04 10:48:29 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-04 10:48:29 info: -------------------------------------------
+2021-05-04 10:48:33 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Web Designer in The hague, married to Hans with 1 kids.
+  Received: You will be a Web Designer in The hague, 
+    married to Hans with 1 kid
+
+2021-05-04 10:51:01 info: -------------------------------------------
+2021-05-04 10:51:01 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-04 10:51:01 info: -------------------------------------------
+2021-05-04 10:51:06 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Web Designer in The hague, married to Hans with 1 kids.
+  Received: You will be a Web Designer in The hague, 
+    married to Hans with 1 kid.
+
+2021-05-04 10:53:21 info: -------------------------------------------
+2021-05-04 10:53:21 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-04 10:53:21 info: -------------------------------------------
+2021-05-04 10:53:25 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Web Designer in The hague, married to Hans with 1 kids.
+  Received: You will be a Web Designer in The hague,married to Hans with 1 kid.
+
+2021-05-04 10:54:23 info: -------------------------------------------
+2021-05-04 10:54:23 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-04 10:54:23 info: -------------------------------------------
+2021-05-04 10:54:27 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Web Designer in The hague, married to Hans with 1 kids.
+  Received: You will be a Web Designer in The hague, married to Hans with 1 kid.
+
+2021-05-04 10:55:09 info: -------------------------------------------
+2021-05-04 10:55:09 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-04 10:55:09 info: -------------------------------------------
+2021-05-04 10:55:13 info: All unit tests passed.
+2021-05-04 10:55:15 info: All steps were completed successfully
+2021-05-05 10:10:07 info: -------------------------------------------
+2021-05-05 10:10:07 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-05 10:10:07 info: -------------------------------------------
+2021-05-05 10:10:10 info: All unit tests passed.
+2021-05-05 10:10:12 info: All steps were completed successfully
+2021-05-05 10:56:01 info: --------------------------------------------
+2021-05-05 10:56:01 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-05-05 10:56:01 info: --------------------------------------------
+2021-05-05 10:56:05 error: *** Unit Test Error Report ***
+
+- addToShoppingCart should add chocolate
+  Expected: You bought bananas, milk, chocolate!
+  Received: you bought bananas
+- addToShoppingCart should remove bananas after adding waffles
+  Expected: You bought milk, chocolate, waffles!
+  Received: you bought milk
+- addToShoppingCart should remove milk after adding tea
+  Expected: You bought chocolate, waffles, tea!
+  Received: you bought chocolate
+
+2021-05-05 10:56:05 error: *** ESLint Report ***
+
+ex4-shoppingCart.js
+  29:12  warning  'elements' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-06 01:36:35 info: --------------------------------------------
+2021-05-06 01:36:35 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-05-06 01:36:35 info: --------------------------------------------
+2021-05-06 01:36:38 error: *** Unit Test Error Report ***
+
+- addToShoppingCart should add chocolate
+  Expected: You bought bananas, milk, chocolate!
+  Received: You bought bananas, milk, chocolate
+- addToShoppingCart should remove bananas after adding waffles
+  Expected: You bought milk, chocolate, waffles!
+  Received: You bought milk, chocolate, waffles
+- addToShoppingCart should remove milk after adding tea
+  Expected: You bought chocolate, waffles, tea!
+  Received: You bought chocolate, waffles, tea
+
+2021-05-06 01:36:39 error: *** ESLint Report ***
+
+ex4-shoppingCart.js
+  31:14  error  'elements' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-06 01:37:19 info: --------------------------------------------
+2021-05-06 01:37:19 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-05-06 01:37:19 info: --------------------------------------------
+2021-05-06 01:37:22 info: All unit tests passed.
+2021-05-06 01:37:23 error: *** ESLint Report ***
+
+ex4-shoppingCart.js
+  31:14  error  'elements' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-06 01:22:21 info: --------------------------------------------
+2021-05-06 01:22:21 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-05-06 01:22:21 info: --------------------------------------------
+2021-05-06 01:22:25 info: All unit tests passed.
+2021-05-06 01:22:26 error: *** ESLint Report ***
+
+ex4-shoppingCart.js
+  31:14  error  'elements' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-06 01:24:51 info: --------------------------------------------
+2021-05-06 01:24:51 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-05-06 01:24:51 info: --------------------------------------------
+2021-05-06 01:24:55 info: All unit tests passed.
+2021-05-06 01:24:55 error: *** ESLint Report ***
+
+ex4-shoppingCart.js
+  31:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-06 01:25:34 info: --------------------------------------------
+2021-05-06 01:25:34 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-05-06 01:25:34 info: --------------------------------------------
+2021-05-06 01:25:37 info: All unit tests passed.
+2021-05-06 01:25:39 info: All steps were completed successfully
+2021-05-07 12:23:23 info: -------------------------------------------------
+2021-05-07 12:23:23 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-05-07 12:23:23 info: -------------------------------------------------
+2021-05-07 12:23:26 error: *** Unit Test Error Report ***
+
+- addToShoppingCart should use spread syntax (...) inside an array
+- addToShoppingCart should return a new array with new the item addded while taking out older items if items > 3
+
+2021-05-07 12:23:27 error: *** ESLint Report ***
+
+ex5-shoppingCartRedux.js
+  15:42  error  'groceryItem' is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-07 01:57:10 info: -------------------------------------------------
+2021-05-07 01:57:10 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-05-07 01:57:10 info: -------------------------------------------------
+2021-05-07 01:57:13 error: *** Unit Test Error Report ***
+
+- addToShoppingCart should use spread syntax (...) inside an array
+- addToShoppingCart should return a new array with new the item addded while taking out older items if items > 3
+
+2021-05-07 01:57:14 error: *** ESLint Report ***
+
+ex5-shoppingCartRedux.js
+  15:42  error  'groceryItem' is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-07 03:19:18 info: -----------------------------------------
+2021-05-07 03:19:18 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-07 03:19:18 info: -----------------------------------------
+2021-05-07 03:19:22 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €17.55
+  Received: NaN
+
+2021-05-07 03:19:22 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  27:3  warning  Identifier 'Meat' is not in camelCase  hyf/camelcase
+  31:3  warning  Avoid `for in` loops                   no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-05-07 03:19:23 error: *** Spell Checker Report ***
+
+ex6-totalCost.js:31:14 - Unknown word (proprties)
+
+2021-05-07 03:20:47 info: -----------------------------------------
+2021-05-07 03:20:47 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-07 03:20:47 info: -----------------------------------------
+2021-05-07 03:20:50 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €17.55
+  Received: NaN
+
+2021-05-07 03:20:51 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  27:3  warning  Identifier 'Meat' is not in camelCase  hyf/camelcase
+  31:3  warning  Avoid `for in` loops                   no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-05-07 03:20:52 error: *** Spell Checker Report ***
+
+ex6-totalCost.js:31:14 - Unknown word (proprties)
+
+2021-05-07 04:00:45 info: -----------------------------------------
+2021-05-07 04:00:45 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-07 04:00:45 info: -----------------------------------------
+2021-05-07 04:00:49 info: All unit tests passed.
+2021-05-07 04:00:50 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  32:3   warning  Avoid `for in` loops                                                       no-restricted-syntax
+  33:18  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-05-07 04:03:31 info: -----------------------------------------
+2021-05-07 04:03:31 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-07 04:03:31 info: -----------------------------------------
+2021-05-07 04:03:34 info: All unit tests passed.
+2021-05-07 04:03:35 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  32:3  warning  Avoid `for in` loops  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-07 04:19:12 info: Disclaimer turned off
+2021-05-07 05:27:19 info: -------------------------------------------
+2021-05-07 05:27:19 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-05-07 05:27:19 info: -------------------------------------------
+2021-05-07 05:27:22 error: *** Unit Test Error Report ***
+
+- filterPrivateData should return a new array with the private parts filtered
+
+2021-05-07 05:35:46 info: -------------------------------------------
+2021-05-07 05:35:46 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-05-07 05:35:46 info: -------------------------------------------
+2021-05-07 05:35:49 info: All unit tests passed.
+2021-05-07 05:35:51 info: All steps were completed successfully
+2021-05-09 01:12:13 info: -------------------------------------------
+2021-05-09 01:12:13 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-05-09 01:12:13 info: -------------------------------------------
+2021-05-09 01:12:17 info: All unit tests passed.
+2021-05-09 01:12:19 info: All steps were completed successfully
+2021-05-09 04:15:36 info: -------------------------------------------------
+2021-05-09 04:15:36 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-05-09 04:15:36 info: -------------------------------------------------
+2021-05-09 04:15:40 error: *** Unit Test Error Report ***
+
+- addToShoppingCart should return a new array with new the item addded while taking out older items if items > 3
+
+2021-05-09 04:17:16 info: -------------------------------------------------
+2021-05-09 04:17:16 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-05-09 04:17:16 info: -------------------------------------------------
+2021-05-09 04:17:19 info: All unit tests passed.
+2021-05-09 04:17:21 info: All steps were completed successfully
+2021-05-10 02:14:17 info: -------------------------------------------
+2021-05-10 02:14:17 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-05-10 02:14:17 info: -------------------------------------------
+2021-05-10 02:14:21 info: All unit tests passed.
+2021-05-10 02:14:23 info: All steps were completed successfully
+2021-05-10 02:21:15 info: -------------------------------------------
+2021-05-10 02:21:15 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-05-10 02:21:15 info: -------------------------------------------
+2021-05-10 02:21:19 info: All unit tests passed.
+2021-05-10 02:21:21 info: All steps were completed successfully
+2021-05-10 02:21:46 info: -----------------------------------------
+2021-05-10 02:21:46 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-10 02:21:46 info: -----------------------------------------
+2021-05-10 02:21:49 info: All unit tests passed.
+2021-05-10 02:21:50 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  32:3  warning  Avoid `for in` loops  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-10 02:24:36 info: -------------------------------------------------
+2021-05-10 02:24:36 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-05-10 02:24:36 info: -------------------------------------------------
+2021-05-10 02:24:40 info: All unit tests passed.
+2021-05-10 02:24:42 info: All steps were completed successfully
+2021-05-10 02:25:02 info: --------------------------------------------
+2021-05-10 02:25:02 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-05-10 02:25:02 info: --------------------------------------------
+2021-05-10 02:25:05 info: All unit tests passed.
+2021-05-10 02:25:07 info: All steps were completed successfully
+2021-05-10 02:25:25 info: -------------------------------------------
+2021-05-10 02:25:25 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-10 02:25:25 info: -------------------------------------------
+2021-05-10 02:25:28 info: All unit tests passed.
+2021-05-10 02:25:30 info: All steps were completed successfully
+2021-05-10 02:27:09 info: ----------------------------------------
+2021-05-10 02:27:09 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-05-10 02:27:09 info: ----------------------------------------
+2021-05-10 02:27:12 info: All unit tests passed.
+2021-05-10 02:27:14 info: All steps were completed successfully
+2021-05-10 02:27:39 info: ----------------------------------------------
+2021-05-10 02:27:39 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-10 02:27:39 info: ----------------------------------------------
+2021-05-10 02:27:42 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are honest, HackYourFuture!
+  Received: You are honest, HackYourFuture
+
+2021-05-10 02:27:44 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:28 - Unknown word (Qusi)
+
+2021-05-10 02:28:20 info: ----------------------------------------------
+2021-05-10 02:28:20 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-10 02:28:20 info: ----------------------------------------------
+2021-05-10 02:28:24 info: All unit tests passed.
+2021-05-10 02:28:26 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:28 - Unknown word (Qusi)
+
+2021-05-10 02:28:59 info: ----------------------------------------------
+2021-05-10 02:28:59 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-10 02:28:59 info: ----------------------------------------------
+2021-05-10 02:29:01 info: All unit tests passed.
+2021-05-10 02:29:03 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:26 - Unknown word (qusi)
+
+2021-05-10 02:29:18 info: ----------------------------------------------
+2021-05-10 02:29:18 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-10 02:29:18 info: ----------------------------------------------
+2021-05-10 02:29:20 info: All unit tests passed.
+2021-05-10 02:29:21 info: All steps were completed successfully

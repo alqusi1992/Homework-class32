@@ -26,8 +26,20 @@ const employeeRecords = [
   },
 ];
 
-function filterPrivateData(/* parameter(s) go here */) {
-  // TODO complete this function
+function filterPrivateData(arr) {
+  /** We can also use map method to filter the data,but I tried to implement what I have learned in week 3  */
+
+  /* const newArray = arr.map(({ name, occupation, email }) => ({
+     name,
+     occupation,
+     email,
+   })); */
+
+  const filterData = [];
+  for (const { name, occupation, email } of arr) {
+    filterData.push({ name, occupation, email });
+  }
+  return filterData;
 }
 
 console.log(filterPrivateData(employeeRecords));

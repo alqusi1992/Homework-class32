@@ -1,0 +1,23 @@
+{
+  "node": "v14.16.0",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "MacBookPro14,1"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-7360U",
+    "speed": 2.3
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "darwin",
+    "distro": "macOS",
+    "release": "11.2.3"
+  },
+  "vscodeInfo": {
+    "version": "",
+    "extensions": [],
+    "userSettings": {}
+  }
+}
