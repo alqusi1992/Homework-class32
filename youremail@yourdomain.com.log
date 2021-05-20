@@ -457,3 +457,18 @@ ex5-wallet/index.js
 2021-05-15 04:24:50 info: ------------------------------------------------
 2021-05-15 04:24:52 info: All unit tests passed.
 2021-05-15 04:24:54 info: All steps were completed successfully
+2021-05-17 05:03:14 info: ------------------------------------------------
+2021-05-17 05:03:14 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-05-17 05:03:14 info: ------------------------------------------------
+2021-05-17 05:03:18 info: All unit tests passed.
+2021-05-17 05:03:20 info: All steps were completed successfully
+2021-05-19 07:27:50 info: --------------------------------------------
+2021-05-19 07:27:50 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-05-19 07:27:50 info: --------------------------------------------
+2021-05-19 07:27:54 info: All unit tests passed.
+2021-05-19 07:27:56 info: All steps were completed successfully
+2021-05-20 08:27:54 info: --------------------------------------------
+2021-05-20 08:27:54 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-05-20 08:27:54 info: --------------------------------------------
+2021-05-20 08:27:58 info: All unit tests passed.
+2021-05-20 08:28:00 info: All steps were completed successfully
