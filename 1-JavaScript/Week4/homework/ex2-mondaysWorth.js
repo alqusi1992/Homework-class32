@@ -32,8 +32,8 @@ const hourlyRate = 25;
 function computeEarnings(amounts, hourlyRate) {
   const totalEarning = amounts
     .map((amount) => {
-      const hours = hourlyRate / 60;
-      return amount.duration * hours;
+      const hours = amount.duration / 60;
+      return hourlyRate * hours;
     })
     .reduce((a, b) => a + b, 0);
 
