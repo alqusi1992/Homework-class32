@@ -43,7 +43,7 @@ const jobTitles = [
 // a randomly selected element as its return value.
 function selectRandomly(arr) {
   const randomIndex = Math.floor(Math.random() * arr.length);
-  return arr[randIndex];
+  return arr[randomIndex];
 }
 
 function tellFortune(kids, partner, locations, job) {
