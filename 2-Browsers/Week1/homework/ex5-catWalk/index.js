@@ -19,8 +19,29 @@
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
+const image = document.querySelector('img');
+let imageOffset = 0;
+const dancingURL =
+  'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+let interval = setInterval(catWalk, 50);
+
 function catWalk() {
-  // TODO complete this function
+  imageOffset += 10;
+  image.style.left = imageOffset + 'px';
+
+  if (imageOffset >= document.body.clientWidth) {
+    imageOffset = 0;
+  }
+
+  if (imageOffset === window.innerWidth / 2) {
+    clearInterval(interval);
+    image.src = dancingURL;
+    setTimeout(() => {
+      image.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+      interval = setInterval(catWalk, 50);
+    }, 5000);
+  }
 }
 
+window.addEventListener('DOMContentLoaded', catWalk);
 // TODO execute `catWalk` when the browser has completed loading the page

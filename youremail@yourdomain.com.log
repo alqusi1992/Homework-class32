@@ -472,3 +472,282 @@ ex5-wallet/index.js
 2021-05-20 08:27:54 info: --------------------------------------------
 2021-05-20 08:27:58 info: All unit tests passed.
 2021-05-20 08:28:00 info: All steps were completed successfully
+2021-05-24 03:12:08 info: ------------------------------------------
+2021-05-24 03:12:08 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-05-24 03:12:08 info: ------------------------------------------
+2021-05-24 03:12:12 error: *** Unit Test Error Report ***
+
+- hijackLogo should set the `srcset` property
+
+2021-05-24 03:12:13 error: *** ESLint Report ***
+
+ex3-hijackLogo.js
+  9:7   warning  'googleLogoSrc' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  9:47  error    'img' is not defined                                      no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-05-24 03:12:46 info: ------------------------------------------
+2021-05-24 03:12:46 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-05-24 03:12:46 info: ------------------------------------------
+2021-05-24 03:12:50 error: *** Unit Test Error Report ***
+
+- hijackLogo should set the `srcset` property
+
+2021-05-24 03:12:50 error: *** ESLint Report ***
+
+ex3-hijackLogo.js
+  9:7  warning  'googleLogoSrc' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-24 03:46:22 info: ------------------------------------------
+2021-05-24 03:46:22 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-05-24 03:46:22 info: ------------------------------------------
+2021-05-24 03:46:25 info: All unit tests passed.
+2021-05-24 03:46:27 info: All steps were completed successfully
+2021-05-24 04:27:07 info: --------------------------------------------
+2021-05-24 04:27:07 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 04:27:07 info: --------------------------------------------
+2021-05-24 04:27:13 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-24 04:27:14 error: *** ESLint Report ***
+
+ex4-whatsTheTime/index.js
+  11:3  warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-24 04:31:31 info: --------------------------------------------
+2021-05-24 04:31:31 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 04:31:31 info: --------------------------------------------
+2021-05-24 04:31:37 info: All unit tests passed.
+2021-05-24 04:31:37 error: *** ESLint Report ***
+
+ex4-whatsTheTime/index.js
+  11:3  warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-24 04:35:45 info: --------------------------------------------
+2021-05-24 04:35:45 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 04:35:45 info: --------------------------------------------
+2021-05-24 04:35:51 info: All unit tests passed.
+2021-05-24 04:35:53 info: All steps were completed successfully
+2021-05-24 05:22:48 info: ------------------------------------------
+2021-05-24 05:22:48 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-05-24 05:22:48 info: ------------------------------------------
+2021-05-24 05:22:51 error: *** Unit Test Error Report ***
+
+- hijackLogo should set the `src` property
+- hijackLogo should set the `srcset` property
+
+2021-05-24 05:22:52 error: *** ESLint Report ***
+
+ex3-hijackLogo.js
+  27:1  error  Parsing error: Unexpected token
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-24 05:22:53 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:20:51 - Unknown word (Xdpd)
+
+2021-05-24 05:29:09 info: ------------------------------------------
+2021-05-24 05:29:09 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-05-24 05:29:09 info: ------------------------------------------
+2021-05-24 05:29:13 info: All unit tests passed.
+2021-05-24 05:29:15 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:9:49 - Unknown word (Xdpd)
+
+2021-05-24 05:32:58 info: ------------------------------------------
+2021-05-24 05:32:58 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-24 05:32:58 info: ------------------------------------------
+2021-05-24 05:32:58 info: Exercise has not yet been modified
+2021-05-24 05:33:01 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with zero living neighbors should die and have its life time reset to zero
+- Game Of Life: a living cell with one living neighbor should die and have its life time reset to zero
+- Game Of Life: a living cell with two living neighbors should survive and have its life time incremented by one
+- Game Of Life: a living cell with three living neighbors should survive and have its life time incremented by one
+- Game Of Life: a living cell with four living neighbors should die and have its life time reset to zero
+- Game Of Life: a dead cell with three living neighbors should come alive and have its lifeTime reset to one
+
+2021-05-24 08:37:49 info: ---------------------------------------
+2021-05-24 08:37:49 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-24 08:37:49 info: ---------------------------------------
+2021-05-24 08:37:55 info: All unit tests passed.
+2021-05-24 08:37:56 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  24:7  warning  Identifier 'DancingURL' is not in camelCase  hyf/camelcase
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-24 08:38:27 info: ---------------------------------------
+2021-05-24 08:38:27 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-24 08:38:27 info: ---------------------------------------
+2021-05-24 08:38:33 info: All unit tests passed.
+2021-05-24 08:38:33 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  24:7  warning  Identifier 'DancingUrl' is not in camelCase  hyf/camelcase
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-24 08:38:57 info: ---------------------------------------
+2021-05-24 08:38:57 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-24 08:38:57 info: ---------------------------------------
+2021-05-24 08:39:01 info: All unit tests passed.
+2021-05-24 08:39:03 info: All steps were completed successfully
+2021-05-25 11:59:42 info: ------------------------------------------
+2021-05-25 11:59:42 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 11:59:42 info: ------------------------------------------
+2021-05-25 11:59:46 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with zero living neighbors should die and have its life time reset to zero
+- Game Of Life: a living cell with one living neighbor should die and have its life time reset to zero
+- Game Of Life: a living cell with two living neighbors should survive and have its life time incremented by one
+- Game Of Life: a living cell with three living neighbors should survive and have its life time incremented by one
+- Game Of Life: a living cell with four living neighbors should die and have its life time reset to zero
+- Game Of Life: a dead cell with three living neighbors should come alive and have its lifeTime reset to one
+
+2021-05-25 02:09:34 info: ------------------------------------------
+2021-05-25 02:09:34 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 02:09:34 info: ------------------------------------------
+2021-05-25 02:09:38 info: All unit tests passed.
+2021-05-25 02:09:40 info: All steps were completed successfully
+2021-05-25 02:10:56 info: ------------------------------------------
+2021-05-25 02:10:56 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 02:10:56 info: ------------------------------------------
+2021-05-25 02:10:58 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with zero living neighbors should die and have its life time reset to zero
+- Game Of Life: a living cell with one living neighbor should die and have its life time reset to zero
+- Game Of Life: a living cell with two living neighbors should survive and have its life time incremented by one
+- Game Of Life: a living cell with three living neighbors should survive and have its life time incremented by one
+- Game Of Life: a living cell with four living neighbors should die and have its life time reset to zero
+- Game Of Life: a dead cell with three living neighbors should come alive and have its lifeTime reset to one
+
+2021-05-25 02:11:22 info: ------------------------------------------
+2021-05-25 02:11:22 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 02:11:22 info: ------------------------------------------
+2021-05-25 02:11:24 info: All unit tests passed.
+2021-05-25 02:11:25 info: All steps were completed successfully
+2021-05-25 04:53:48 info: ----------------------------------------
+2021-05-25 04:53:48 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-25 04:53:48 info: ----------------------------------------
+2021-05-25 04:53:54 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    10:186  error  <img> is missing required "alt" attribute  wcag/h37
+    10:397  error  <img> is missing required "alt" attribute  wcag/h37
+    10:624  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-05-25 04:53:55 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  43:7   warning  'list' is never reassigned. Use 'const' instead   no-autofix/prefer-const
+  47:9   warning  'li' is never reassigned. Use 'const' instead     no-autofix/prefer-const
+  48:9   warning  'p' is never reassigned. Use 'const' instead      no-autofix/prefer-const
+  64:11  warning  'image' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  70:11  warning  'image' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  77:11  warning  'image' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 6 problems (0 errors, 6 warnings)
+
+
+2021-05-25 04:58:17 info: ----------------------------------------
+2021-05-25 04:58:17 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-25 04:58:17 info: ----------------------------------------
+2021-05-25 04:58:23 error: *** Unit Test Error Report ***
+
+- Generated HTML should contain a <ul> that is a child of <div id="bookList">
+- Generated HTML should contain a <ul> with 3 <li> elements
+- Generated HTML should contain an <li> with title and author for each book of the `myBooks` array
+- Generated HTML should contain an <img> element for each book
+
+2021-05-25 04:58:24 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  43:7  warning  'list' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  47:9  warning  'li' is never reassigned. Use 'const' instead    no-autofix/prefer-const
+  48:9  warning  'p' is never reassigned. Use 'const' instead     no-autofix/prefer-const
+
+✖ 3 problems (0 errors, 3 warnings)
+
+
+2021-05-25 04:59:09 info: ----------------------------------------
+2021-05-25 04:59:09 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-25 04:59:09 info: ----------------------------------------
+2021-05-25 04:59:15 error: *** Unit Test Error Report ***
+
+- Generated HTML should contain a <ul> that is a child of <div id="bookList">
+- Generated HTML should contain a <ul> with 3 <li> elements
+- Generated HTML should contain an <li> with title and author for each book of the `myBooks` array
+- Generated HTML should contain an <img> element for each book
+
+2021-05-25 05:00:37 info: ----------------------------------------
+2021-05-25 05:00:37 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-25 05:00:37 info: ----------------------------------------
+2021-05-25 05:00:42 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    10:186  error  <img> is missing required "alt" attribute  wcag/h37
+    10:397  error  <img> is missing required "alt" attribute  wcag/h37
+    10:624  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-05-25 05:01:33 info: ----------------------------------------
+2021-05-25 05:01:33 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-25 05:01:33 info: ----------------------------------------
+2021-05-25 05:01:38 info: All unit tests passed.
+2021-05-25 05:01:40 info: All steps were completed successfully
+2021-05-25 05:02:24 info: ---------------------------------------
+2021-05-25 05:02:24 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-05-25 05:02:24 info: ---------------------------------------
+2021-05-25 05:02:30 info: All unit tests passed.
+2021-05-25 05:02:31 error: *** Spell Checker Report ***
+
+ex2-aboutMe/index.js:21:38 - Unknown word (qusi)
+
+2021-05-25 05:02:44 info: ------------------------------------------
+2021-05-25 05:02:44 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-05-25 05:02:44 info: ------------------------------------------
+2021-05-25 05:02:45 info: All unit tests passed.
+2021-05-25 05:02:47 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:9:49 - Unknown word (Xdpd)
+
+2021-05-25 05:02:58 info: --------------------------------------------
+2021-05-25 05:02:58 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-25 05:02:58 info: --------------------------------------------
+2021-05-25 05:03:01 info: All unit tests passed.
+2021-05-25 05:03:04 info: All steps were completed successfully
+2021-05-25 05:03:23 info: ---------------------------------------
+2021-05-25 05:03:23 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-25 05:03:23 info: ---------------------------------------
+2021-05-25 05:03:27 info: All unit tests passed.
+2021-05-25 05:03:29 info: All steps were completed successfully
+2021-05-25 05:03:44 info: ------------------------------------------
+2021-05-25 05:03:44 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 05:03:44 info: ------------------------------------------
+2021-05-25 05:03:46 info: All unit tests passed.
+2021-05-25 05:03:47 info: All steps were completed successfully

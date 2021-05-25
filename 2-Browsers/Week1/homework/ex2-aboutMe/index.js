@@ -9,3 +9,20 @@
 ------------------------------------------------------------------------------*/
 
 // TODO add your JavaScript code here.
+// Select the Elements
+const body = document.querySelector('body');
+const firstSpan = document.querySelector('#nickname');
+const secondSpan = document.querySelector('#fav-food');
+const thirdSpan = document.querySelector('#hometown');
+const liAddClass = document.querySelectorAll('li');
+
+// Make changing of the elements
+body.style.fontFamily = 'Arial, sans-serif';
+firstSpan.textContent = 'Mohammad al qusi';
+secondSpan.textContent = 'Burger';
+thirdSpan.textContent = 'The hague';
+
+// loop through of each element
+liAddClass.forEach((items) => {
+  items.className = 'list-item';
+});

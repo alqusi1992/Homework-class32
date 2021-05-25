@@ -40,7 +40,54 @@ const myBooks = [
 ];
 
 function createBookList(books) {
-  // your code goes in here, return the ul element
+  const list = document.createElement('ul');
+  list.style.display = 'flex';
+
+  books.forEach((data, index) => {
+    const li = document.createElement('li');
+    const p = document.createElement('p');
+
+    p.textContent = `${data.title} - ${data.author}`;
+    li.style.listStyleType = 'none';
+    li.appendChild(p);
+    li.style.margin = '50px';
+    li.style.padding = '15px';
+
+    /** Here if condition to change the color depends on wether read it or not */
+    if (data.alreadyRead === false) {
+      li.style.backgroundColor = 'red';
+    } else {
+      li.style.backgroundColor = 'green';
+    }
+    /** I used the second parameter of forEach Index to put each IMAGE in separate object  */
+    if (index === 0) {
+      const image = document.createElement('img');
+      image.alt = 'newImage';
+      image.src = 'https://media.s-bol.com/7ov383lj3Rr/800x1200.jpg';
+      image.width = '200';
+      li.appendChild(image);
+    }
+    if (index === 1) {
+      const image = document.createElement('img');
+      image.alt = 'newImage';
+      image.src =
+        'https://images-na.ssl-images-amazon.com/images/I/71HMyqG6MRL.jpg';
+      image.width = '200';
+      li.appendChild(image);
+    }
+    if (index === 2) {
+      const image = document.createElement('img');
+      image.alt = 'newImage';
+      image.src =
+        'https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/The_pragmatic_programmer.jpg/220px-The_pragmatic_programmer.jpg';
+      image.width = '200';
+      li.appendChild(image);
+    }
+
+    list.appendChild(li);
+  });
+
+  return list;
 }
 
 const ulElement = createBookList(myBooks);
