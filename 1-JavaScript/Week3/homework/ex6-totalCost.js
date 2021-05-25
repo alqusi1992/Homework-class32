@@ -27,16 +27,11 @@ const cartForParty = {
   meat: 5,
 };
 
-function calculateTotalPrice(numValue) {
-  /**
-   * - I tried to use for loop, but i get the output 0 instead of the total number of object
-   */
-  let total = 0;
-  for (const el in numValue) {
-    total += numValue[el];
-  }
-  return `Total: €${total}`;
-}
+function calculateTotalPrice() {
+  
+return Object.keys(partyCart).reduce((acc, elem) => {
+  return acc + partyCart[elem];
+}, 0);
 
 console.log(calculateTotalPrice(cartForParty));
 
