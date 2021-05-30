@@ -54,7 +54,7 @@ function createBookList(books) {
     li.style.padding = '15px';
 
     /** Here if condition to change the color depends on wether read it or not */
-    if (data.alreadyRead === false) {
+    if (!data.alreadyRead) {
       li.style.backgroundColor = 'red';
     } else {
       li.style.backgroundColor = 'green';
