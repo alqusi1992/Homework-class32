@@ -48,10 +48,9 @@ function createBookList(books) {
     const p = document.createElement('p');
 
     p.textContent = `${data.title} - ${data.author}`;
-    li.style.listStyleType = 'none';
+    let style = `list-style-type:none;margin:50px;padding:15px`;
+    li.style = style;
     li.appendChild(p);
-    li.style.margin = '50px';
-    li.style.padding = '15px';
 
     /** Here if condition to change the color depends on wether read it or not */
     if (!data.alreadyRead) {
