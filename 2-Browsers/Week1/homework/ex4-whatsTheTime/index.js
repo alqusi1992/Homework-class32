@@ -14,4 +14,4 @@ function addCurrentTime() {
   });
 }
 
-setInterval(addCurrentTime, 0);
+setInterval(addCurrentTime, 50);
