@@ -60,29 +60,17 @@ function createBookList(books) {
       li.style.backgroundColor = 'green';
     }
     /** I used the second parameter of forEach Index to put each IMAGE in separate object  */
-    if (index === 0) {
-      const image = document.createElement('img');
-      image.alt = 'newImage';
-      image.src = 'https://media.s-bol.com/7ov383lj3Rr/800x1200.jpg';
-      image.width = '200';
-      li.appendChild(image);
-    }
-    if (index === 1) {
-      const image = document.createElement('img');
-      image.alt = 'newImage';
-      image.src =
-        'https://images-na.ssl-images-amazon.com/images/I/71HMyqG6MRL.jpg';
-      image.width = '200';
-      li.appendChild(image);
-    }
-    if (index === 2) {
-      const image = document.createElement('img');
-      image.alt = 'newImage';
-      image.src =
-        'https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/The_pragmatic_programmer.jpg/220px-The_pragmatic_programmer.jpg';
-      image.width = '200';
-      li.appendChild(image);
-    }
+    let arrayOfImages = [
+      'https://media.s-bol.com/7ov383lj3Rr/800x1200.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/71HMyqG6MRL.jpg',
+      'https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/The_pragmatic_programmer.jpg/220px-The_pragmatic_programmer.jpg',
+    ];
+
+    const image = document.createElement('img');
+    image.alt = 'image';
+    image.src = arrayOfImages[index];
+    image.width = '200';
+    li.appendChild(image);
 
     list.appendChild(li);
   });
