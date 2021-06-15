@@ -25,8 +25,15 @@ const rollDice = require('../../helpers/pokerDiceRoller');
 
 function rollTheDices() {
   // TODO Refactor this function
-  const dices = [1, 2, 3, 4, 5];
-  return rollDice(1);
+  const allDices = Promise.all([
+    rollDice(1),
+    rollDice(2),
+    rollDice(3),
+    rollDice(4),
+    rollDice(5),
+  ]);
+
+  return allDices;
 }
 
 rollTheDices()
@@ -35,3 +42,8 @@ rollTheDices()
 
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
+
+/**
+ * I think because with promise.all method should have completed all the rolls even when some reject.
+ * Promise.all is all or nothing. It resolves once all promises in the array resolve, or reject as soon as one of them rejects.
+ */
