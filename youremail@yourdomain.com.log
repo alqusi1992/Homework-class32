@@ -216,3 +216,170 @@ ex4-pokerDiceAll.js
 2021-06-15 12:38:35 info: -------------------------------------------------
 2021-06-15 12:38:37 info: All unit tests passed.
 2021-06-15 12:38:39 info: All steps were completed successfully
+2021-06-19 04:31:55 info: ---------------------------------------------
+2021-06-19 04:31:55 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-06-19 04:31:55 info: ---------------------------------------------
+2021-06-19 04:32:02 info: All unit tests passed.
+2021-06-19 04:32:03 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  23:9  warning  Identifier 'json_data' is not in camelCase  hyf/camelcase
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-06-19 04:32:34 info: ---------------------------------------------
+2021-06-19 04:32:34 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-06-19 04:32:34 info: ---------------------------------------------
+2021-06-19 04:32:39 info: All unit tests passed.
+2021-06-19 04:32:41 info: All steps were completed successfully
+2021-06-19 10:49:39 info: ------------------------------------------
+2021-06-19 10:49:39 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-19 10:49:39 info: ------------------------------------------
+2021-06-19 10:49:44 info: All unit tests passed.
+2021-06-19 10:49:45 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  30:3   warning  Remove commented-out code                                                                                   hyf/no-commented-out-code
+  33:3   warning  Remove commented-out code                                                                                   hyf/no-commented-out-code
+  34:3   warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+  37:10  error    'fetchImage' is defined but never used                                                                      no-unused-vars
+
+✖ 4 problems (1 error, 3 warnings)
+
+
+2021-06-21 04:28:32 info: ------------------------------------------
+2021-06-21 04:28:32 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-21 04:28:32 info: ------------------------------------------
+2021-06-21 04:28:38 info: All unit tests passed.
+2021-06-21 04:28:39 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  33:3   warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+  49:40  warning  Results from `map` are unused. Replace `map` with `forEach`                       no-restricted-syntax
+  49:40  error    Results from `map` are unused. Replace `map` with `forEach`                       hyf/use-map-result
+
+✖ 3 problems (1 error, 2 warnings)
+
+
+2021-06-21 04:29:57 info: ------------------------------------------
+2021-06-21 04:29:57 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-21 04:29:57 info: ------------------------------------------
+2021-06-21 04:30:03 info: All unit tests passed.
+2021-06-21 04:30:04 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  49:40  warning  Results from `map` are unused. Replace `map` with `forEach`  no-restricted-syntax
+  49:40  error    Results from `map` are unused. Replace `map` with `forEach`  hyf/use-map-result
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-06-21 05:02:47 info: -----------------------------------------
+2021-06-21 05:02:47 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-21 05:02:47 info: -----------------------------------------
+2021-06-21 05:02:51 info: All unit tests passed.
+2021-06-21 05:02:52 error: *** ESLint Report ***
+
+ex3-rollAnAce.js
+  28:30  error  'error' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-06-21 05:03:14 info: -----------------------------------------
+2021-06-21 05:03:14 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-21 05:03:14 info: -----------------------------------------
+2021-06-21 05:03:17 info: All unit tests passed.
+2021-06-21 05:03:19 info: All steps were completed successfully
+2021-06-21 05:11:11 info: ----------------------------------------
+2021-06-21 05:11:11 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-06-21 05:11:11 info: ----------------------------------------
+2021-06-21 05:11:15 error: *** Unit Test Error Report ***
+
+- ex4-diceRace should resolve as soon as a dice settles successfully
+Cannot access 'allDices' before initialization,
+- ex4-diceRace should reject with an Error as soon as a dice rolls off the table
+
+2021-06-21 05:11:16 error: *** ESLint Report ***
+
+ex4-diceRace.js
+  17:16  error  'dice' is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-06-21 05:11:32 info: ----------------------------------------
+2021-06-21 05:11:32 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-06-21 05:11:32 info: ----------------------------------------
+2021-06-21 05:11:36 error: *** Unit Test Error Report ***
+
+- ex4-diceRace should resolve as soon as a dice settles successfully,
+
+2021-06-21 05:11:37 error: *** ESLint Report ***
+
+ex4-diceRace.js
+  16:9  error  'allDices' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-06-21 05:12:00 info: ----------------------------------------
+2021-06-21 05:12:00 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-06-21 05:12:00 info: ----------------------------------------
+2021-06-21 05:12:04 info: All unit tests passed.
+2021-06-21 05:12:06 info: All steps were completed successfully
+2021-06-21 05:15:01 info: ----------------------------------------
+2021-06-21 05:15:01 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-06-21 05:15:01 info: ----------------------------------------
+2021-06-21 05:15:01 info: Exercise has not yet been modified
+2021-06-21 05:15:01 warn: A unit test file was not provided.
+2021-06-21 05:15:03 info: All steps were completed successfully
+2021-06-21 06:17:55 info: ----------------------------------------
+2021-06-21 06:17:55 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-06-21 06:17:55 info: ----------------------------------------
+2021-06-21 06:17:58 info: All unit tests passed.
+2021-06-21 06:18:00 info: All steps were completed successfully
+2021-06-21 06:21:16 info: ----------------------------------------
+2021-06-21 06:21:16 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-06-21 06:21:16 info: ----------------------------------------
+2021-06-21 06:21:16 warn: A unit test file was not provided.
+2021-06-21 06:21:18 info: All steps were completed successfully
+2021-06-21 07:04:42 info: ----------------------------------------
+2021-06-21 07:04:42 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-06-21 07:04:42 info: ----------------------------------------
+2021-06-21 07:04:42 warn: A unit test file was not provided.
+2021-06-21 07:04:46 info: All steps were completed successfully
+2021-06-21 08:51:15 info: --------------------------------------------
+2021-06-21 08:51:15 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-06-21 08:51:15 info: --------------------------------------------
+2021-06-21 08:51:15 warn: A unit test file was not provided.
+2021-06-21 08:51:18 info: All steps were completed successfully
+2021-06-22 12:38:14 info: ---------------------------------------------
+2021-06-22 12:38:14 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-06-22 12:38:14 info: ---------------------------------------------
+2021-06-22 12:38:23 info: All unit tests passed.
+2021-06-22 12:38:25 info: All steps were completed successfully
+2021-06-22 12:39:38 info: ------------------------------------------
+2021-06-22 12:39:38 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-22 12:39:38 info: ------------------------------------------
+2021-06-22 12:39:47 info: All unit tests passed.
+2021-06-22 12:39:48 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  49:40  warning  Results from `map` are unused. Replace `map` with `forEach`  no-restricted-syntax
+  49:40  error    Results from `map` are unused. Replace `map` with `forEach`  hyf/use-map-result
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-06-22 12:42:25 info: -----------------------------------------
+2021-06-22 12:42:25 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-22 12:42:25 info: -----------------------------------------
+2021-06-22 12:42:30 info: All unit tests passed.
+2021-06-22 12:42:33 info: All steps were completed successfully
+2021-06-22 12:43:05 info: ----------------------------------------
+2021-06-22 12:43:05 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-06-22 12:43:05 info: ----------------------------------------
+2021-06-22 12:43:11 info: All unit tests passed.
+2021-06-22 12:43:14 info: All steps were completed successfully

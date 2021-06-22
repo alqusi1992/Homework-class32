@@ -16,28 +16,31 @@
    should result in a network (DNS) error.
 ------------------------------------------------------------------------------*/
 function requestData(url) {
-  // TODO return a promise using `fetch()`
+  return fetch(url);
 }
 
-function renderImage(data) {
-  // TODO render the image to the DOM
-  console.log(data);
+async function renderImage(data) {
+  const json = await data.json();
+  const newImg = document.createElement('img');
+  newImg.src = json.img;
+  document.body.appendChild(newImg);
 }
 
 function renderError(error) {
-  // TODO render the error to the DOM
-  console.log(error);
+  const heading = document.createElement('h1');
+  heading.textContent = error;
+  heading.style.color = 'red';
+  document.body.appendChild(heading);
 }
 
 // TODO refactor with async/await and try/catch
-function main() {
-  requestData('https://xkcd.now.sh/?comic=latest')
-    .then((data) => {
-      renderImage(data);
-    })
-    .catch((error) => {
-      renderError(error);
-    });
+async function main() {
+  try {
+    const fetchData = await requestData('https://xkcd.now.sh/?comic=latest');
+    return renderImage(fetchData);
+  } catch (error) {
+    renderError(error);
+  }
 }
 
 window.addEventListener('load', main);
