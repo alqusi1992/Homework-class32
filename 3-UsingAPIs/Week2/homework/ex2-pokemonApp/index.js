@@ -21,59 +21,56 @@ Use async/await and try/catch to handle promises.
 Try and avoid using global variables. As much as possible, try and use function 
 parameters and return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
-function fetchData(url) {
-  return fetch(url);
-}
-
-async function fetchAndPopulatePokemons(data) {
-  const dataOutput = await data.json();
-
-  const createBtn = document.createElement('button');
-  createBtn.id = 'btn';
-  createBtn.textContent = 'Get Pokemon!';
-  document.body.appendChild(createBtn);
-
-  const selectItem = document.createElement('select');
-  selectItem.id = 'select';
-  selectItem.style.display = 'block';
-  selectItem.style.marginTop = '10px';
-  document.body.appendChild(selectItem);
-
-  const createImg = document.createElement('img');
-  createImg.id = 'image';
-  createImg.style.marginTop = '10px';
-  createImg.src = dataOutput;
-  document.body.appendChild(createImg);
-
-  createBtn.addEventListener('click', () => {
-    Object.entries(dataOutput.results).map((result) => {
-      const displayOption = document.createElement('option');
-      displayOption.textContent = JSON.stringify(result[1].name);
-      selectItem.appendChild(displayOption);
-    });
+const API_URL = 'https://pokeapi.co/api/v2';
+const styleEl = (el, styles) => {
+  Object.keys(styles).forEach((style) => {
+    el.style[style] = styles[style];
   });
-
-  selectItem.addEventListener('change', (e) => {
-    fetchImage(e.target.value, createImg);
+};
+const createEl = (type = 'div', id = '', styles = {}) => {
+  const el = document.createElement(type);
+  el.id = id || false;
+  document.body.appendChild(el);
+  styleEl(el, styles);
+  return el;
+};
+const createEls = (src) => {
+  const btn = createEl('button', 'btn');
+  btn.textContent = 'Get Pokemon!';
+  const select = createEl('select', 'select', {
+    display: 'block',
+    marginTop: '10px',
+  });
+  const image = createEl('img', 'image', {
+    marginTop: '10px',
+  });
+  image.src = src;
+  return {
+    btn,
+    select,
+    image,
+  };
+};
+const fetchApi = async (url) => {
+  const data = await fetch(API_URL + url);
+  return await data.json();
+};
+async function pokemons(data) {
+  const { image, select } = createEls(data);
+  Object.entries(data.results).map((result) => {
+    const options = createEl('option');
+    const name = result[1].name;
+    options.textContent = name;
+    select.appendChild(options);
+  });
+  select.addEventListener('change', async (e) => {
+    const data = await fetchApi('/pokemon/' + e.target.value);
+    image.src = data.sprites.back_default;
   });
 }
-
-async function fetchImage(dataOutput, createImg) {
-  try {
-    createImg.src = dataOutput;
-    createImg.alt = 'img';
-  } catch (err) {
-    console.log(err);
-  }
-}
-
-async function main() {
-  try {
-    const insertData = await fetchData('https://pokeapi.co/api/v2/pokemon');
-    return fetchAndPopulatePokemons(insertData);
-  } catch (err) {
-    console.log(err);
-  }
-}
+const main = async () => {
+  const data = await fetchApi('/pokemon');
+  return pokemons(data);
+};
 
 window.addEventListener('load', main);
